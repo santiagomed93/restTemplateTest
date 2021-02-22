@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    </head>
+    <body style="padding: 30px 20px;">
+        <form id="formGetEmployee">
+            <input id ="employeeId" type="text" pattern="[0-9 ]*">
+            <input type="submit" value="Get Employees">
+        </form>
+
+        <table id="EmployeeTable" class="table table-dark table-hover" style="margin-top: 20px;">
+            <thead>
+                <tr>
+                  <th scope="col">id</th>
+                  <th scope="col">name</th>
+                  <th scope="col">contractTypeName</th>
+                  <th scope="col">roleId</th>
+                  <th scope="col">roleName</th>
+                  <th scope="col">roleDescription</th>
+                  <th scope="col">hourlySalary</th>
+                  <th scope="col">monthlySalary</th>
+                  <th scope="col">annualSalary</th>
+                </tr>
+              </thead>
+              <tbody>
+              </tbody>
+        </table>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+        <script src="frontend.js"></script>
+    </body>
+</html>
