@@ -1,5 +1,6 @@
 $(document).ready(function() {
-    var urlBase = "http://localhost:8080/employees/";
+    //var urlBase = "http://localhost:8080/employees/";
+    var urlBase = "https://web-client-demo-santiagomed.herokuapp.com/employees/";
     $("#formGetEmployee").submit(function (e) {
         e.preventDefault();
         $("tbody").empty();
